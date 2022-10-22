@@ -20,15 +20,47 @@ class Solution {
         //check for worst case
         
         
-        for(int i = k; i >= 1; i--){ // need this to decrement k until 1
-            int l = 0; 
-            int r = i;
-            while(r < nums.length){
-                if(nums[l] == nums[r]){
-                    return true;
-                }
-                l++;
-                r++;
+        // for(int i = k; i >= 1; i--){ // need this to decrement k until 1
+        //     int l = 0; 
+        //     int r = i;
+        //     while(r < nums.length){
+        //         if(nums[l] == nums[r]){
+        //             return true;
+        //         }
+        //         l++;
+        //         r++;
+        //     }
+        // }
+        // return false;
+        
+        
+        //best hashset solution
+        
+        if(k <= 0){
+            return false;
+        }
+        
+        if(k == 1){
+           for(int i = 1; i < nums.length; i++){
+               if(nums[i-1] == nums[i]){
+                  return true; 
+               }
+           } 
+            return false;
+        }
+        
+        HashSet<Integer> set = new HashSet<>();
+        
+        for(int i = 0; i < k+1 && i < nums.length; i++){
+            if(!set.add(nums[i])){
+                return true;
+            }
+        }
+        
+        for(int i = set.size(); i < nums.length; i++){
+            set.remove(nums[i-k-1]);
+            if(!set.add(nums[i])){
+                return true;
             }
         }
         return false;
