@@ -20,17 +20,38 @@ class Solution {
 //         }
 //         return maxSum;
         
-        
-        
-        //Kadane's algorithm
-        int max = Integer.MIN_VALUE;
-        int subMax = -10^5;
+        int sum = Integer.MIN_VALUE;
+        int prevSum = -20001;
         for(int i = 0; i < nums.length; i++){
-            subMax = Math.max(nums[i], nums[i] + subMax);
-            if(max < subMax){
-                max = subMax;
+            prevSum = Math.max(prevSum + nums[i], nums[i]);
+            if(prevSum > sum){
+                sum = prevSum;
             }
         }
-        return max;
+        return sum;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+//         //Kadane's algorithm
+//         int max = Integer.MIN_VALUE;
+//         int subMax = -10^5;
+//         for(int i = 0; i < nums.length; i++){
+//             subMax = Math.max(nums[i], nums[i] + subMax);
+//             if(max < subMax){
+//                 max = subMax;
+//             }
+//         }
+//         return max;
     }
 }
