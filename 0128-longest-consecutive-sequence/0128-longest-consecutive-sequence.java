@@ -17,14 +17,11 @@ class Solution {
             System.out.print(nums[i] + ", ");
             if(nums[i] + 1 == nums[i+1])
             {
+                
                 counter++;
                 max = Math.max(max, counter);
             }
-            else if(nums[i] == nums[i+1])
-            {
-            
-            }
-            else
+            else if(nums[i] != nums[i+1])
             {
                 counter = 1;
             }
