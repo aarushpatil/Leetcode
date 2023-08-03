@@ -30,14 +30,5 @@ class Solution {
 
         return max;
 
-
-
-/*
-        one for loop that runs through nums{
-
-            
-        }
-
-*/
     }
 }
