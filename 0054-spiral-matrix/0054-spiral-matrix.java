@@ -27,10 +27,6 @@ class Solution {
 
         while(list.size() != matrix.length * matrix[0].length)
         {
-            // System.out.print(list.toString());
-            // System.out.println(":                  [" + xi + "][" + yi + "]" + "         four: " + four);
-
-
             list.add(matrix[xi][yi]);
 
             if(four % 4 == 1)
