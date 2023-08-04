@@ -1,7 +1,7 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
         //sort intervals by first number
-        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+        Arrays.sort(intervals, (a,b) -> a[0] - b[0]);
         
         //start at 0th interval. Compare ith interval with i+1 interval until i<length-1
 
