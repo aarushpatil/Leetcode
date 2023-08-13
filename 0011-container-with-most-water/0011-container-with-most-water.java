@@ -1,31 +1,35 @@
 class Solution {
-   public static int maxArea(int[] height) {
-		int maxArea = 0, a = 0, b = height.length - 1;
-		while (b - a > 0) {
-			maxArea = max(maxArea, min(height[a], height[b]) * (b - a));
-			if (min(height[a], height[b]) == height[a]) {
-				a++;
-			} else {
-				b--;
-			}
-		}
-		return maxArea;
-	}
-	
-	public static int max(int a, int b) {
-		if(a>b) {
-			return a;
-		}
-		else {
-			return b;
-		}
-	}
-	public static int min(int a, int b) {
-		if(a<b) {
-			return a;
-		}
-		else {
-			return b;
-		}
-	}
+    public int maxArea(int[] height) {
+        //brute force
+        // int maxArea = 0;
+        // for(int i = 0; i < height.length; i++)
+        // {
+        //     for(int k = i; k < height.length; k++)
+        //     {
+        //         int water = Math.min(height[i], height[k]);
+        //         maxArea = Math.max(maxArea, water * (k - i));
+        //     }
+        // }
+        // return maxArea;
+
+
+        //O(n)
+        int l = 0;
+        int r = height.length - 1;
+
+        int maxArea = 0;
+        while(l < r)
+        {
+            maxArea = Math.max(maxArea, (r - l) * Math.min(height[l], height[r]));
+            if(height[l] < height[r])
+            {
+                l++;
+            }
+            else
+            {
+                r--;
+            }
+        }
+        return maxArea;
+    }
 }
