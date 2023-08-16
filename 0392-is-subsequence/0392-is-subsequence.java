@@ -16,7 +16,6 @@ class Solution {
                     return true;
                 }
                 p++;
-                // System.out.println(p +", " + i);
             }
         }
         
