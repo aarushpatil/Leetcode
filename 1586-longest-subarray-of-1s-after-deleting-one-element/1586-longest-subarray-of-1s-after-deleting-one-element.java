@@ -20,6 +20,7 @@ class Solution {
                     l = prevZero + 1;
                 }
                 prevZero = r;
+                
             }
             max = Math.max(max, r - l);
             r++;
