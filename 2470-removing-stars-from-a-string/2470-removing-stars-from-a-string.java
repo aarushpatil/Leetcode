@@ -14,13 +14,13 @@ class Solution {
 			}
 		}
 		
-		String retStr = "";
+		StringBuilder retStr = new StringBuilder();
 		int size = st.size();
 		int i = 0;
 		while(i < size) {
-			retStr = "" + st.pop() + retStr;
+			retStr.append(st.pop());
 			i++;
 		}
-		return retStr;
+		return retStr.reverse().toString();
     }
 }
