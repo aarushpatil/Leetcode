@@ -11,18 +11,16 @@
  */
 public class Solution {
     public ListNode detectCycle(ListNode head) {
-        HashMap<ListNode, Integer> visited = new HashMap<>();
+        HashSet<ListNode> visited = new HashSet<>();
         ListNode curr = head;
-        int index = 0;
         while(curr != null)
         {
             // System.out.println(curr.val);
-            if(visited.containsKey(curr))
+            if(visited.contains(curr))
             {
                 return curr;
             }
-            visited.put(curr, index);
-            index++;
+            visited.add(curr);
             curr = curr.next;
         }
         return null;
