@@ -11,19 +11,18 @@
  */
 public class Solution {
     public boolean hasCycle(ListNode head) {
-
-        HashSet<ListNode> set = new HashSet<ListNode>();
+        HashSet<ListNode> visited = new HashSet<>();
         ListNode curr = head;
         while(curr != null)
         {
-            //if it's already in the set it won't be able to add and it will enter if statement
-            if(!set.add(curr))
+            // System.out.println(curr.val);
+            if(visited.contains(curr))
             {
                 return true;
             }
+            visited.add(curr);
             curr = curr.next;
         }
         return false;
     }
-
 }
