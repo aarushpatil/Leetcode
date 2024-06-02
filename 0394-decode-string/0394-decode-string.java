@@ -1,6 +1,8 @@
 class Solution {
     public String decodeString(String s) {
-        return method(s, 1);
+        String ret = method(s, 1);
+        System.gc();
+        return ret;
     }
     
     int i = 0;
