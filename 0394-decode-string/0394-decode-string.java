@@ -1,7 +1,7 @@
 class Solution {
     public String decodeString(String s) {
         String ret = method(s, 1);
-        System.gc();
+        // System.gc();
         return ret;
     }
     
