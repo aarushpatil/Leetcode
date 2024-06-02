@@ -100,7 +100,6 @@ class Solution {
     }
     
     int i = 0;
-
     String method(String s, int mult)
     {
         String retStr = "";
@@ -108,7 +107,7 @@ class Solution {
         {
             char curr = s.charAt(i);
             int currAscii = curr;
-            System.out.println(i);
+            // System.out.println(i);
             if((((int)s.charAt(i)) >= 48 && ((int)s.charAt(i)) <= 57)) //its a number
             {
                 //loop forward till the end of the number
@@ -120,19 +119,19 @@ class Solution {
                 }
                 i++; //move i past '['
                 int theMult = Integer.parseInt(sb.toString());
-                System.out.println("recurse!");
+                // System.out.println("recurse!");
                 retStr += method(s, theMult);
             }
 
             else if(']' == curr)
             {
-                System.out.println(mult);
+                // System.out.println(mult);
                 String resolvedString = "";
                 for(int k = 0; k < mult; k++)
                 {
                     resolvedString += retStr;
                 }
-                System.out.println(resolvedString);
+                // System.out.println(resolvedString);
                 return resolvedString;
             }
 
