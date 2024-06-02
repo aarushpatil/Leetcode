@@ -21,11 +21,11 @@ class Solution {
                 int startIndOfNum = getNum(s, openInd-3, openInd);//0
 
                 String resolvedString = "";
-                System.out.println("innerstr: " + innerString);
-                System.out.println("the startInd: " + startIndOfNum);
-                System.out.println("the openInd: " + openInd);
+                // System.out.println("innerstr: " + innerString);
+                // System.out.println("the startInd: " + startIndOfNum);
+                // System.out.println("the openInd: " + openInd);
                 int num = Integer.parseInt(s.substring(startIndOfNum, openInd));
-                System.out.println("the num: " + num);
+                // System.out.println("the num: " + num);
 
                 for(int k = 0; k < num; k++)
                 {
@@ -36,8 +36,8 @@ class Solution {
                 String partA = s.substring(0, startIndOfNum);
                 s = partA + resolvedString + s.substring(i+1, s.length());
                 i = partA.length() + resolvedString.length()-1;
-                System.out.println("the new str: " + s);
-                System.out.println("new i: " + i);
+                // System.out.println("the new str: " + s);
+                // System.out.println("new i: " + i);
             }
 
             i++;
@@ -65,7 +65,7 @@ class Solution {
         // System.out.println(s);
         for(int i = end-1; i >= start; i--)//start = 2,      end = 5
         {
-            System.out.println(s.charAt(i));
+            // System.out.println(s.charAt(i));
             if( !(((int)s.charAt(i)) >= 48 && ((int)s.charAt(i)) <= 57) )   //97-122
             {
                 // System.out.println("the III: " + i);
