@@ -2,49 +2,20 @@ class Solution {
     public List<String> letterCombinations(String digits) {
         ArrayList<String> list = new ArrayList<>();
         HashMap<Character, String> map = new HashMap<>();
-        map.put('1', "abc");
-                map.put('1', "abc");
-
+        map.put('1', "");
+        map.put('2', "abc");
+        map.put('3', "def");
+        map.put('4', "ghi");
+        map.put('5', "jkl");
+        map.put('6', "mno");
+        map.put('7', "pqrs");
+        map.put('8', "tuv");
+        map.put('9', "wxyz");
 
         for(int i = 0; i < digits.length(); i++)
         {
-            String d = "" + digits.charAt(i);
-            if(d.equals("1"))
-            {
-
-            }
-            else if(d.equals("2"))
-            {
-                list.add("abc");
-            }
-            else if(d.equals("3"))
-            {
-                list.add("def");
-            }
-            else if(d.equals("4"))
-            {
-                list.add("ghi");
-            }
-            else if(d.equals("5"))
-            {
-                list.add("jkl");
-            }
-            else if(d.equals("6"))
-            {
-                list.add("mno");
-            }
-            else if(d.equals("7"))
-            {
-                list.add("pqrs");
-            }
-            else if(d.equals("8"))
-            {
-                list.add("tuv");
-            }
-            else if(d.equals("9"))
-            {
-                list.add("wxyz");
-            }
+            char d = digits.charAt(i);
+            list.add(map.get(d));
         }
         if(list.size() == 0)
         {
