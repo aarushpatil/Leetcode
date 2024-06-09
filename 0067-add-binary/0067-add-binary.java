@@ -6,7 +6,7 @@ class Solution {
         int aInd = a.length()-1;
         int bInd = b.length()-1;
 
-        String str = "";
+        StringBuilder str = new StringBuilder();
 
         while(index > 0)
         {
@@ -37,11 +37,13 @@ class Solution {
 
             if((aChar + bChar + c) % 2 == 0)
             {
-                str = "0" + str;
+                // str = "0" + str;
+                str.insert(0, '0');
             }
             else
             {
-                str = "1" + str;
+                // str = "1" + str;
+                str.insert(0, '1');
             }
 
 
@@ -56,10 +58,10 @@ class Solution {
 
        if(carry)
        {
-        str = "1" + str;
+        str.insert(0, '1');
        }
 
-        return str;
+        return str.toString();
 
 
         /*
