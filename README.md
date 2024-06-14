@@ -11,11 +11,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0203-remove-linked-list-elements](https://github.com/aarushpatil/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0237-delete-node-in-a-linked-list](https://github.com/aarushpatil/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/aarushpatil/Leetcode/tree/master/0328-odd-even-linked-list) |
+| [0445-add-two-numbers-ii](https://github.com/aarushpatil/Leetcode/tree/master/0445-add-two-numbers-ii) |
 # Math
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/aarushpatil/Leetcode/tree/master/0002-add-two-numbers) |
 | [0067-add-binary](https://github.com/aarushpatil/Leetcode/tree/master/0067-add-binary) |
+| [0445-add-two-numbers-ii](https://github.com/aarushpatil/Leetcode/tree/master/0445-add-two-numbers-ii) |
 # Recursion
 |  |
 | ------- |
@@ -53,3 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0061-rotate-list](https://github.com/aarushpatil/Leetcode/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/aarushpatil/Leetcode/tree/master/0141-linked-list-cycle) |
+# Stack
+|  |
+| ------- |
+| [0445-add-two-numbers-ii](https://github.com/aarushpatil/Leetcode/tree/master/0445-add-two-numbers-ii) |
