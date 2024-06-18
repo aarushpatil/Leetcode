@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/aarushpatil/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0046-permutations](https://github.com/aarushpatil/Leetcode/tree/master/0046-permutations) |
 # Bit Manipulation
 |  |
 | ------- |
@@ -64,3 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0445-add-two-numbers-ii](https://github.com/aarushpatil/Leetcode/tree/master/0445-add-two-numbers-ii) |
+# Array
+|  |
+| ------- |
+| [0046-permutations](https://github.com/aarushpatil/Leetcode/tree/master/0046-permutations) |
