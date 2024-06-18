@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Two Pointers
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/aarushpatil/Leetcode/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/aarushpatil/Leetcode/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/aarushpatil/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/aarushpatil/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
@@ -68,4 +69,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/aarushpatil/Leetcode/tree/master/0031-next-permutation) |
 | [0046-permutations](https://github.com/aarushpatil/Leetcode/tree/master/0046-permutations) |
