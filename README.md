@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/aarushpatil/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0141-linked-list-cycle](https://github.com/aarushpatil/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/aarushpatil/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [2442-number-of-arithmetic-triplets](https://github.com/aarushpatil/Leetcode/tree/master/2442-number-of-arithmetic-triplets) |
 # String
 |  |
 | ------- |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0061-rotate-list](https://github.com/aarushpatil/Leetcode/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/aarushpatil/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/aarushpatil/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [2442-number-of-arithmetic-triplets](https://github.com/aarushpatil/Leetcode/tree/master/2442-number-of-arithmetic-triplets) |
 # Stack
 |  |
 | ------- |
@@ -71,3 +73,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0031-next-permutation](https://github.com/aarushpatil/Leetcode/tree/master/0031-next-permutation) |
 | [0046-permutations](https://github.com/aarushpatil/Leetcode/tree/master/0046-permutations) |
+| [2442-number-of-arithmetic-triplets](https://github.com/aarushpatil/Leetcode/tree/master/2442-number-of-arithmetic-triplets) |
+# Enumeration
+|  |
+| ------- |
+| [2442-number-of-arithmetic-triplets](https://github.com/aarushpatil/Leetcode/tree/master/2442-number-of-arithmetic-triplets) |
