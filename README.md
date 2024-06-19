@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/aarushpatil/Leetcode/tree/master/0002-add-two-numbers) |
 | [0067-add-binary](https://github.com/aarushpatil/Leetcode/tree/master/0067-add-binary) |
+| [0070-climbing-stairs](https://github.com/aarushpatil/Leetcode/tree/master/0070-climbing-stairs) |
 | [0445-add-two-numbers-ii](https://github.com/aarushpatil/Leetcode/tree/master/0445-add-two-numbers-ii) |
 # Recursion
 |  |
@@ -85,3 +86,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0162-find-peak-element](https://github.com/aarushpatil/Leetcode/tree/master/0162-find-peak-element) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/aarushpatil/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+# Dynamic Programming
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/aarushpatil/Leetcode/tree/master/0070-climbing-stairs) |
+# Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/aarushpatil/Leetcode/tree/master/0070-climbing-stairs) |
