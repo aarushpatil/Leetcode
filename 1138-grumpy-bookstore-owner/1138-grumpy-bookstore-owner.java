@@ -9,16 +9,27 @@ class Solution {
             }
         }
 
-        int max = defaultSatisfied;
-        for(int i = 0; i < customers.length; i++)
+        //open the window
+        int sum = defaultSatisfied;
+        for(int i = 0; i < minutes; i++)
         {
-            int sum = defaultSatisfied;
-            for(int m = i; m < minutes + i && m < customers.length; m++)
+            if(grumpy[i] == 1)
             {
-                if(grumpy[m] == 1) //if he was grumpy at this time i can flip to non grumpy
-                {
-                    sum += customers[m];
-                }
+                sum += customers[i];
+            }
+        }
+
+        int max = Math.max(defaultSatisfied, sum);
+        for(int i = minutes; i < customers.length; i++)
+        {
+            if(grumpy[i - minutes] == 1)
+            {
+                sum -= customers[i - minutes];
+            }
+            if(grumpy[i] == 1)
+            {
+                System.out.println("insiiideeeeeee");
+                sum += customers[i];
             }
             max = Math.max(max, sum);
         }
