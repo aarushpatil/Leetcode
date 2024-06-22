@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/aarushpatil/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0141-linked-list-cycle](https://github.com/aarushpatil/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/aarushpatil/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0554-brick-wall](https://github.com/aarushpatil/Leetcode/tree/master/0554-brick-wall) |
 | [2442-number-of-arithmetic-triplets](https://github.com/aarushpatil/Leetcode/tree/master/2442-number-of-arithmetic-triplets) |
 # String
 |  |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0031-next-permutation](https://github.com/aarushpatil/Leetcode/tree/master/0031-next-permutation) |
 | [0046-permutations](https://github.com/aarushpatil/Leetcode/tree/master/0046-permutations) |
 | [0162-find-peak-element](https://github.com/aarushpatil/Leetcode/tree/master/0162-find-peak-element) |
+| [0554-brick-wall](https://github.com/aarushpatil/Leetcode/tree/master/0554-brick-wall) |
 | [1138-grumpy-bookstore-owner](https://github.com/aarushpatil/Leetcode/tree/master/1138-grumpy-bookstore-owner) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/aarushpatil/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2442-number-of-arithmetic-triplets](https://github.com/aarushpatil/Leetcode/tree/master/2442-number-of-arithmetic-triplets) |
