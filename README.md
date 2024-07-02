@@ -101,3 +101,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1138-grumpy-bookstore-owner](https://github.com/aarushpatil/Leetcode/tree/master/1138-grumpy-bookstore-owner) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/aarushpatil/Leetcode/tree/master/0322-coin-change) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/aarushpatil/Leetcode/tree/master/0322-coin-change) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/aarushpatil/Leetcode/tree/master/0322-coin-change) |
+<!---LeetCode Topics End-->
