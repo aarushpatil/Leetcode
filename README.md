@@ -117,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/aarushpatil/Leetcode/tree/master/0062-unique-paths) |
 | [0118-pascals-triangle](https://github.com/aarushpatil/Leetcode/tree/master/0118-pascals-triangle) |
 | [0322-coin-change](https://github.com/aarushpatil/Leetcode/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/aarushpatil/Leetcode/tree/master/0338-counting-bits) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -171,4 +172,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0338-counting-bits](https://github.com/aarushpatil/Leetcode/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
