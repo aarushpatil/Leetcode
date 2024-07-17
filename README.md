@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0118-pascals-triangle](https://github.com/aarushpatil/Leetcode/tree/master/0118-pascals-triangle) |
 | [0200-number-of-islands](https://github.com/aarushpatil/Leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/aarushpatil/Leetcode/tree/master/0322-coin-change) |
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/aarushpatil/Leetcode/tree/master/0062-unique-paths) |
+| [0118-pascals-triangle](https://github.com/aarushpatil/Leetcode/tree/master/0118-pascals-triangle) |
 | [0322-coin-change](https://github.com/aarushpatil/Leetcode/tree/master/0322-coin-change) |
 ## Breadth-First Search
 |  |
