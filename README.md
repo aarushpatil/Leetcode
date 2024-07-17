@@ -108,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0200-number-of-islands](https://github.com/aarushpatil/Leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/aarushpatil/Leetcode/tree/master/0322-coin-change) |
+| [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1803-average-waiting-time](https://github.com/aarushpatil/Leetcode/tree/master/1803-average-waiting-time) |
 ## Dynamic Programming
 |  |
@@ -147,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/aarushpatil/Leetcode/tree/master/0200-number-of-islands) |
+| [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Union Find
 |  |
 | ------- |
@@ -155,4 +157,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/aarushpatil/Leetcode/tree/master/0200-number-of-islands) |
+## Hash Table
+|  |
+| ------- |
+| [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
+## Tree
+|  |
+| ------- |
+| [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
+## Binary Tree
+|  |
+| ------- |
+| [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 <!---LeetCode Topics End-->
