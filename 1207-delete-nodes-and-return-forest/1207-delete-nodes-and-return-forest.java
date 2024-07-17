@@ -91,29 +91,4 @@ class Solution {
         recur(rt.right);
     }
 
-    // void add(TreeNode rt)
-    // {
-    //     if(rt == null) return;
-
-    //     if(del.contains(rt.val))
-    //     {
-    //         if(rt.left != null && !del.contains(rt.left.val))
-    //         {
-    //             ret.add(rt.left);
-    //         }
-    //         else
-    //         {
-    //             add(rt.left);
-    //         }
-
-    //         if(rt.right != null && !del.contains(rt.right.val))
-    //         {
-    //             ret.add(rt.right);
-    //         }
-    //         else
-    //         {
-    //             add(rt.right);
-    //         }
-    //     }
-    // }
 }
