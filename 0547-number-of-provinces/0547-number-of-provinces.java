@@ -1,67 +1,36 @@
 class Solution {
-
-    int[] links;
-    int[] size;
+    int[][] matrix;
+    boolean[] visited;
+    
     public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+        matrix = isConnected;
+        visited = new boolean[n];
+        int numProvinces = 0;
 
-        links = new int[isConnected.length];
-        size = new int[isConnected.length];
-
-        for(int i = 0; i < links.length; i++)
-        {
-            links[i] = i;
-        }
-
-        for(int i = 0; i < isConnected.length; i++)
-        {
-            for(int k = 0; k < isConnected[i].length; k++)
-            {
-                if(isConnected[i][k] == 1) //node i is connected to node k
-                {
-                    union(i, k);
-                }
+        for(int x = 0; x < n; x++) {
+            if(!visited[x]) {
+                numProvinces++;
+                dfs(x);
             }
         }
 
-        System.out.println(Arrays.toString(links));
-        
-        int count = 0;
-        for(int i = 0; i < links.length; i++)
-        {
-            if(i == links[i])
-            {
-                count++;
-            }
-        }
-        return count;
-        // return -1;
+        return numProvinces;
     }
 
-    void union(int a, int b)
-    {
-        a = find(a);
-        b = find(b);
+    public void dfs(int current) {
+        if (visited[current]) return;
+        
+        visited[current] = true;
 
-        if(size[a] > size[b])
-        {
-            //add b to a
-            links[b] = links[a];
-            size[a] += size[b];
-        }
-        else
-        {
-            links[a] = links[b];
-            size[b] += size[a];
-        }
-    }
+        for (int i = 0; i < matrix[current].length; i++) {
+            // if (matrix[current][i] == 0) continue;
+            // dfs(matrix[current][i]);
 
-    int find(int a)
-    {
-        while(a != links[a])
-        {
-            a = links[a];
+            if (matrix[current][i] == 1 && !visited[i]) { 
+            dfs(i);
+        }
         }
         
-        return a;
     }
 }
