@@ -45,12 +45,12 @@ class Solution {
         if(size[a] > size[b])
         {
             //add b to a
-            links[b] = links[a];
+            links[b] = a;
             size[a] += size[b];
         }
         else
         {
-            links[a] = links[b];
+            links[a] = b;
             size[b] += size[a];
         }
     }
