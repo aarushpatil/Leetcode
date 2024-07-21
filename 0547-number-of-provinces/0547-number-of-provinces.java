@@ -1,36 +1,67 @@
 class Solution {
-    int[][] matrix;
-    boolean[] visited;
-    
-    public int findCircleNum(int[][] isConnected) {
-        int n = isConnected.length;
-        matrix = isConnected;
-        visited = new boolean[n];
-        int numProvinces = 0;
 
-        for(int x = 0; x < n; x++) {
-            if(!visited[x]) {
-                numProvinces++;
-                dfs(x);
+    int[] links;
+    int[] size;
+    public int findCircleNum(int[][] isConnected) {
+
+        links = new int[isConnected.length];
+        size = new int[isConnected.length];
+
+        for(int i = 0; i < links.length; i++)
+        {
+            links[i] = i;
+        }
+
+        for(int i = 0; i < isConnected.length; i++)
+        {
+            for(int k = 0; k < isConnected[i].length; k++)
+            {
+                if(isConnected[i][k] == 1) //node i is connected to node k
+                {
+                    union(i, k);
+                }
             }
         }
 
-        return numProvinces;
+        System.out.println(Arrays.toString(links));
+        
+        int count = 0;
+        for(int i = 0; i < links.length; i++)
+        {
+            if(i == links[i])
+            {
+                count++;
+            }
+        }
+        return count;
+        // return -1;
     }
 
-    public void dfs(int current) {
-        if (visited[current]) return;
-        
-        visited[current] = true;
+    void union(int a, int b)
+    {
+        a = find(a);
+        b = find(b);
 
-        for (int i = 0; i < matrix[current].length; i++) {
-            // if (matrix[current][i] == 0) continue;
-            // dfs(matrix[current][i]);
-
-            if (matrix[current][i] == 1 && !visited[i]) { 
-            dfs(i);
+        if(size[a] > size[b])
+        {
+            //add b to a
+            links[b] = links[a];
+            size[a] += size[b];
         }
+        else
+        {
+            links[a] = links[b];
+            size[b] += size[a];
+        }
+    }
+
+    int find(int a)
+    {
+        while(a != links[a])
+        {
+            a = links[a];
         }
         
+        return a;
     }
 }
