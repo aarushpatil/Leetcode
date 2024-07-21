@@ -10,6 +10,7 @@ class Solution {
         for(int i = 0; i < links.length; i++)
         {
             links[i] = i;
+            size[i] = 1;
         }
 
         for(int i = 0; i < isConnected.length; i++)
@@ -23,7 +24,7 @@ class Solution {
             }
         }
 
-        System.out.println(Arrays.toString(links));
+        // System.out.println(Arrays.toString(links));
         
         int count = 0;
         for(int i = 0; i < links.length; i++)
