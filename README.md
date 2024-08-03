@@ -139,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/aarushpatil/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0394-decode-string](https://github.com/aarushpatil/Leetcode/tree/master/0394-decode-string) |
 ## Design
 |  |
 | ------- |
@@ -150,7 +151,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
-| [0002-add-two-numbers](https://github.com/aarushpatil/Leetcode/tree/master/0002-add-two-numbers) |
 | [0062-unique-paths](https://github.com/aarushpatil/Leetcode/tree/master/0062-unique-paths) |
 ## Combinatorics
 |  |
@@ -205,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/aarushpatil/Leetcode/tree/master/0394-decode-string) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/aarushpatil/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2727-number-of-senior-citizens](https://github.com/aarushpatil/Leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Topological Sort
@@ -215,12 +216,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0825-max-increase-to-keep-city-skyline](https://github.com/aarushpatil/Leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
-## Linked List
-|  |
-| ------- |
-| [0002-add-two-numbers](https://github.com/aarushpatil/Leetcode/tree/master/0002-add-two-numbers) |
 ## Recursion
 |  |
 | ------- |
-| [0002-add-two-numbers](https://github.com/aarushpatil/Leetcode/tree/master/0002-add-two-numbers) |
+| [0394-decode-string](https://github.com/aarushpatil/Leetcode/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
