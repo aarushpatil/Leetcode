@@ -150,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/aarushpatil/Leetcode/tree/master/0002-add-two-numbers) |
 | [0062-unique-paths](https://github.com/aarushpatil/Leetcode/tree/master/0062-unique-paths) |
 ## Combinatorics
 |  |
@@ -214,4 +215,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0825-max-increase-to-keep-city-skyline](https://github.com/aarushpatil/Leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/aarushpatil/Leetcode/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/aarushpatil/Leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
