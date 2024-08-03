@@ -17,16 +17,6 @@ class Solution {
       for (Map.Entry<Integer,Integer> e : frequencies.entrySet()) {
         int response = e.getKey();
         int freq = e.getValue();
-        //[2,2,2,2,1] returns 8 
-        //freq = 4, response = 2
-        //4 > 2+1
-        
-        /* 
-          if (response == 0) {
-              result += freq;
-              continue;
-          }
-        */
         
         if (freq > response+1) {
           // modulo
@@ -43,5 +33,5 @@ class Solution {
       
       return result;
     }
-    // [1,0,1,0,0] returns 6 expected 5
+
 }
