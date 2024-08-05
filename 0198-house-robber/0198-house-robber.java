@@ -1,11 +1,14 @@
 class Solution {
-    int[] nums;
     public int rob(int[] nums) {
-        this.nums = nums;
 
         if(nums.length == 1)
         {
             return nums[0];
+        }
+
+        else if(nums.length == 2)
+        {
+            return Math.max(nums[0], nums[1]);
         }
 
         int[] dp = new int[nums.length]; //stores at index i, the best robbing value from the left up to i;
@@ -21,18 +24,6 @@ class Solution {
             max = Math.max(max, dp[i]);
         }
 
-        // System.out.println(Arrays.toString(dp));
-
         return max;
-    }
-
-    int recur(int i)
-    {
-        if(i >= nums.length)
-        {
-            return 0;
-        }
-
-        return nums[i] + Math.max(recur(i+2), recur(i+3));
     }
 }
