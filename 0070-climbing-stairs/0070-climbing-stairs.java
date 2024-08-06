@@ -1,21 +1,20 @@
 class Solution {
-    HashMap<Integer, Integer> ansMap;
     public int climbStairs(int n) {
-        ansMap = new HashMap<>();
-        return recur(n);
-    }
-    int recur(int n)
-    {
+        // if(n <= 2) return n;
+        // return climbStairs(n-1) + climbStairs(n-2);
         if(n <= 3)
         {
             return n;
         }
-        if(ansMap.containsKey(n))
+        int prev = 1;
+        int curr = 2;
+        for(int i = 3; i <= n; i++)
         {
-            return ansMap.get(n);
+            int temp = curr;
+            curr = curr + prev;
+            prev = temp;
         }
-        int ans = recur(n-2) + recur(n-1);
-        ansMap.put(n, ans);
-        return ans;
+
+        return curr;
     }
 }
