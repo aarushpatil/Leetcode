@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/aarushpatil/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/aarushpatil/Leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/aarushpatil/Leetcode/tree/master/0322-coin-change) |
+| [0473-matchsticks-to-square](https://github.com/aarushpatil/Leetcode/tree/master/0473-matchsticks-to-square) |
 | [0695-max-area-of-island](https://github.com/aarushpatil/Leetcode/tree/master/0695-max-area-of-island) |
 | [0797-rabbits-in-forest](https://github.com/aarushpatil/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0825-max-increase-to-keep-city-skyline](https://github.com/aarushpatil/Leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
@@ -135,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/aarushpatil/Leetcode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/aarushpatil/Leetcode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/aarushpatil/Leetcode/tree/master/0338-counting-bits) |
+| [0473-matchsticks-to-square](https://github.com/aarushpatil/Leetcode/tree/master/0473-matchsticks-to-square) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -214,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0338-counting-bits](https://github.com/aarushpatil/Leetcode/tree/master/0338-counting-bits) |
+| [0473-matchsticks-to-square](https://github.com/aarushpatil/Leetcode/tree/master/0473-matchsticks-to-square) |
 ## Graph
 |  |
 | ------- |
@@ -279,4 +282,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/aarushpatil/Leetcode/tree/master/0051-n-queens) |
+| [0473-matchsticks-to-square](https://github.com/aarushpatil/Leetcode/tree/master/0473-matchsticks-to-square) |
+## Bitmask
+|  |
+| ------- |
+| [0473-matchsticks-to-square](https://github.com/aarushpatil/Leetcode/tree/master/0473-matchsticks-to-square) |
 <!---LeetCode Topics End-->
