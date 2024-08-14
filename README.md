@@ -177,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/aarushpatil/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0133-clone-graph](https://github.com/aarushpatil/Leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/aarushpatil/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/aarushpatil/Leetcode/tree/master/0547-number-of-provinces) |
@@ -207,10 +208,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/aarushpatil/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/aarushpatil/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Bit Manipulation
 |  |
@@ -287,4 +290,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0473-matchsticks-to-square](https://github.com/aarushpatil/Leetcode/tree/master/0473-matchsticks-to-square) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/aarushpatil/Leetcode/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
