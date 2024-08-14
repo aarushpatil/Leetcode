@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0051-n-queens](https://github.com/aarushpatil/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/aarushpatil/Leetcode/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/aarushpatil/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0118-pascals-triangle](https://github.com/aarushpatil/Leetcode/tree/master/0118-pascals-triangle) |
@@ -274,4 +275,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/aarushpatil/Leetcode/tree/master/0053-maximum-subarray) |
+## Backtracking
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/aarushpatil/Leetcode/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
