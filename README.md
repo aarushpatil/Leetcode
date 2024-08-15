@@ -110,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/aarushpatil/Leetcode/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/aarushpatil/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0118-pascals-triangle](https://github.com/aarushpatil/Leetcode/tree/master/0118-pascals-triangle) |
+| [0128-longest-consecutive-sequence](https://github.com/aarushpatil/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/aarushpatil/Leetcode/tree/master/0139-word-break) |
 | [0179-largest-number](https://github.com/aarushpatil/Leetcode/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/aarushpatil/Leetcode/tree/master/0198-house-robber) |
@@ -187,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/aarushpatil/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/aarushpatil/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/aarushpatil/Leetcode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/aarushpatil/Leetcode/tree/master/0695-max-area-of-island) |
@@ -200,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/aarushpatil/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/aarushpatil/Leetcode/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/aarushpatil/Leetcode/tree/master/0139-word-break) |
 | [0797-rabbits-in-forest](https://github.com/aarushpatil/Leetcode/tree/master/0797-rabbits-in-forest) |
