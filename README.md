@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/aarushpatil/Leetcode/tree/master/0011-container-with-most-water) |
 | [0051-n-queens](https://github.com/aarushpatil/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/aarushpatil/Leetcode/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/aarushpatil/Leetcode/tree/master/0064-minimum-path-sum) |
@@ -248,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/aarushpatil/Leetcode/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/aarushpatil/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/aarushpatil/Leetcode/tree/master/0179-largest-number) |
 | [0797-rabbits-in-forest](https://github.com/aarushpatil/Leetcode/tree/master/0797-rabbits-in-forest) |
@@ -270,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/aarushpatil/Leetcode/tree/master/0011-container-with-most-water) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/aarushpatil/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Binary Search
 |  |
