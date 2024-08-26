@@ -159,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/aarushpatil/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/aarushpatil/Leetcode/tree/master/0394-decode-string) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/aarushpatil/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 ## Design
 |  |
 | ------- |
@@ -186,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/aarushpatil/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/aarushpatil/Leetcode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/aarushpatil/Leetcode/tree/master/0695-max-area-of-island) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/aarushpatil/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0871-keys-and-rooms](https://github.com/aarushpatil/Leetcode/tree/master/0871-keys-and-rooms) |
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Union Find
@@ -215,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/aarushpatil/Leetcode/tree/master/0098-validate-binary-search-tree) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/aarushpatil/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Binary Tree
 |  |
