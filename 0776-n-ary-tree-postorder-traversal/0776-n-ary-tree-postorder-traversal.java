@@ -18,25 +18,25 @@ class Node {
 */
 
 class Solution {
-    List<Integer> list;
     public List<Integer> postorder(Node root) {
-        list = new ArrayList<>();
-        post(root);
-        return list;
+
+        return post(root, new ArrayList<>());
+        // return list;
     }
 
-    void post(Node root) 
+    List<Integer> post(Node root, List<Integer> list) 
     {
         if(root == null) 
         {
-            return;
+            return new ArrayList<>();
         }
 
         for(Node n : root.children) 
         {
-            post(n);
+            post(n, list);
         }
 
         list.add(root.val);
+        return list;
     }
 }
