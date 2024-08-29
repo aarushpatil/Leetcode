@@ -119,6 +119,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/aarushpatil/Leetcode/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/aarushpatil/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/aarushpatil/Leetcode/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/aarushpatil/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0228-summary-ranges](https://github.com/aarushpatil/Leetcode/tree/master/0228-summary-ranges) |
 | [0322-coin-change](https://github.com/aarushpatil/Leetcode/tree/master/0322-coin-change) |
 | [0473-matchsticks-to-square](https://github.com/aarushpatil/Leetcode/tree/master/0473-matchsticks-to-square) |
@@ -286,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/aarushpatil/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/aarushpatil/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Memoization
 |  |
@@ -313,4 +315,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/aarushpatil/Leetcode/tree/master/0098-validate-binary-search-tree) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/aarushpatil/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+## Prefix Sum
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/aarushpatil/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
