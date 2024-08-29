@@ -1,7 +1,7 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
 
-        int min = Integer.MIN_VALUE;//nlogn
+        int min = Integer.MIN_VALUE;
 
         boolean same = true;
         int value = nums[0];
@@ -14,7 +14,7 @@ class Solution {
         }
         if(same) return 2;
 
-        Arrays.sort(nums);
+        // Arrays.sort(nums);
         for(int i = 2; i < nums.length; i++)
         {
             if(nums[i - 2] == nums[i - 1])
