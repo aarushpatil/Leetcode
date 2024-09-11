@@ -1,37 +1,20 @@
 class Solution {
-    long[] dp;
-    int[] coins;
     public int coinChange(int[] coins, int amount) {
-        if(amount <= 0) return amount;
-        this.coins = coins;
-        dp = new long[amount + 1]; // try using a map for this...
-        return helper(amount);
-    }
-
-    int helper(int amount)
-    {
-        if(amount < 0) 
+        int n = amount;
+        int[] dp = new int[n + 1]; //represents min # of coins to get to it
+        Arrays.fill(dp, Integer.MAX_VALUE);
+        dp[0] = 0;
+        for(int i = 0; i < dp.length; i++)
         {
-            return -1;
-        }
-        else if(amount == 0) return 0;
-
-        else if(dp[amount] != 0) return (int)dp[amount];
-
-        long min = Integer.MAX_VALUE;
-        for(int c : coins)
-        {
-            
-            long res = helper(amount - c);
-            if(res != -1)
+            for(int k = 0; k < coins.length; k++)
             {
-                min = Math.min(res + 1, min);
+                if(i - coins[k] >= 0)
+                {
+                    dp[i] = (int) Math.min((long)dp[i], ((long)dp[i - coins[k]]) + 1);
+                }
             }
         }
-        int retVal = 0;
-        if(min >= Integer.MAX_VALUE) retVal = -1;
-        else retVal = (int)min;
-        dp[amount] = retVal;
-        return retVal;
+
+        return (dp[amount] == Integer.MAX_VALUE) ? -1 : dp[amount];
     }
 }
