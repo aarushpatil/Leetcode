@@ -138,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/aarushpatil/Leetcode/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/aarushpatil/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/aarushpatil/Leetcode/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/aarushpatil/Leetcode/tree/master/0072-edit-distance) |
 | [0118-pascals-triangle](https://github.com/aarushpatil/Leetcode/tree/master/0118-pascals-triangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/aarushpatil/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0139-word-break](https://github.com/aarushpatil/Leetcode/tree/master/0139-word-break) |
@@ -243,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/aarushpatil/Leetcode/tree/master/0072-edit-distance) |
 | [0139-word-break](https://github.com/aarushpatil/Leetcode/tree/master/0139-word-break) |
 | [0179-largest-number](https://github.com/aarushpatil/Leetcode/tree/master/0179-largest-number) |
 | [0394-decode-string](https://github.com/aarushpatil/Leetcode/tree/master/0394-decode-string) |
