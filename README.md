@@ -160,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1803-average-waiting-time](https://github.com/aarushpatil/Leetcode/tree/master/1803-average-waiting-time) |
+| [2645-pass-the-pillow](https://github.com/aarushpatil/Leetcode/tree/master/2645-pass-the-pillow) |
 ## Stack
 |  |
 | ------- |
@@ -181,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/aarushpatil/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/aarushpatil/Leetcode/tree/master/0070-climbing-stairs) |
 | [0797-rabbits-in-forest](https://github.com/aarushpatil/Leetcode/tree/master/0797-rabbits-in-forest) |
+| [2645-pass-the-pillow](https://github.com/aarushpatil/Leetcode/tree/master/2645-pass-the-pillow) |
 ## Combinatorics
 |  |
 | ------- |
