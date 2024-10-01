@@ -47,7 +47,7 @@ class Solution {
             map.put(beginWord, temp);
         }
 
-        printGraph(map);
+        // printGraph(map);
 
         Queue<String> q = new LinkedList<>();
         HashSet<String> visited = new HashSet<>();
