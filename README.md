@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/aarushpatil/Leetcode/tree/master/0695-max-area-of-island) |
 | [0797-rabbits-in-forest](https://github.com/aarushpatil/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0825-max-increase-to-keep-city-skyline](https://github.com/aarushpatil/Leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
+| [1002-maximum-width-ramp](https://github.com/aarushpatil/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/aarushpatil/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1803-average-waiting-time](https://github.com/aarushpatil/Leetcode/tree/master/1803-average-waiting-time) |
@@ -175,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/aarushpatil/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/aarushpatil/Leetcode/tree/master/0394-decode-string) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/aarushpatil/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [1002-maximum-width-ramp](https://github.com/aarushpatil/Leetcode/tree/master/1002-maximum-width-ramp) |
 ## Design
 |  |
 | ------- |
@@ -368,4 +370,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2339-k-divisible-elements-subarrays](https://github.com/aarushpatil/Leetcode/tree/master/2339-k-divisible-elements-subarrays) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1002-maximum-width-ramp](https://github.com/aarushpatil/Leetcode/tree/master/1002-maximum-width-ramp) |
 <!---LeetCode Topics End-->
