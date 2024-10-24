@@ -15,64 +15,30 @@
  */
 class Solution {
     public long kthLargestLevelSum(TreeNode root, int k) {
-        Queue<Integer> levelQ = new LinkedList<Integer>();
+        PriorityQueue<Long> pq = new PriorityQueue<>(Collections.reverseOrder());
         Queue<TreeNode> q = new LinkedList<>();
 
-        HashMap<Integer, Long> levelSum = new HashMap<>();
-        // long[] levelSum = new long[100000];
+        ArrayList<Long> list = new ArrayList<>();
 
-        //key is level index
-        //value is sum
-
-        //bfs over tree
         q.add(root);
-        levelQ.add(0);
-
-        while(!q.isEmpty())
-        {
-            TreeNode currNode = q.poll();
-            int currLevel = levelQ.poll();
-            if(currNode == null) continue;
-
-            // levelSum[currLevel] += currNode.val;
-            levelSum.put(currLevel, levelSum.getOrDefault(currLevel, (long)0) + currNode.val);
-
-            levelQ.add(currLevel + 1);
-            q.add(currNode.left);
-
-            levelQ.add(currLevel + 1);
-            q.add(currNode.right);
-        }
-
-        // System.out.println(Arrays.toString(levelSum));
-
-        ArrayList<Long> nums = new ArrayList<>();
-        for(long n : levelSum.values())
-        {
-            if(n == 0)
-            {
-                break;
+        while(!q.isEmpty()){
+            int size = q.size();
+            long currSum = 0;
+            for(int i = 0 ; i < size ; i++){
+                TreeNode curr = q.remove();
+                currSum += curr.val;
+                if(curr.left != null) q.add(curr.left);
+                if(curr.right != null) q.add(curr.right);
             }
-            nums.add(n);
+            list.add(currSum);
+        } 
+        pq.addAll(list);
+        while(!pq.isEmpty() && k != 1){
+            pq.remove();
+            k--;
         }
 
-        System.out.println(nums);
-        if(k > nums.size())
-        {
-            return -1;
-        }
-
-        PriorityQueue<Long> priQueue = new PriorityQueue<>(Collections.reverseOrder());
-        priQueue.addAll(nums);
-
-        for(int i = 0; i < k-1; i++)
-        {
-            priQueue.poll();
-        }
-
-        return priQueue.poll();
-
-
-        // Arrays.sort(levelSum);
+        if(pq.isEmpty()) return -1;
+        else return pq.remove();
     }
 }
