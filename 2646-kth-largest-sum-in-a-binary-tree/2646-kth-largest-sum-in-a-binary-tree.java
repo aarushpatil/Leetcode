@@ -18,8 +18,8 @@ class Solution {
         Queue<Integer> levelQ = new LinkedList<Integer>();
         Queue<TreeNode> q = new LinkedList<>();
 
-        // HashMap<Integer, Integer> map = new HashMap<>();
-        long[] levelSum = new long[100000];
+        HashMap<Integer, Long> levelSum = new HashMap<>();
+        // long[] levelSum = new long[100000];
 
         //key is level index
         //value is sum
@@ -34,7 +34,8 @@ class Solution {
             int currLevel = levelQ.poll();
             if(currNode == null) continue;
 
-            levelSum[currLevel] += currNode.val;
+            // levelSum[currLevel] += currNode.val;
+            levelSum.put(currLevel, levelSum.getOrDefault(currLevel, (long)0) + currNode.val);
 
             levelQ.add(currLevel + 1);
             q.add(currNode.left);
@@ -46,7 +47,7 @@ class Solution {
         // System.out.println(Arrays.toString(levelSum));
 
         ArrayList<Long> nums = new ArrayList<>();
-        for(long n : levelSum)
+        for(long n : levelSum.values())
         {
             if(n == 0)
             {
