@@ -155,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0338-counting-bits](https://github.com/aarushpatil/Leetcode/tree/master/0338-counting-bits) |
 | [0473-matchsticks-to-square](https://github.com/aarushpatil/Leetcode/tree/master/0473-matchsticks-to-square) |
 | [0747-min-cost-climbing-stairs](https://github.com/aarushpatil/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0806-domino-and-tromino-tiling](https://github.com/aarushpatil/Leetcode/tree/master/0806-domino-and-tromino-tiling) |
 | [1236-n-th-tribonacci-number](https://github.com/aarushpatil/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 ## Breadth-First Search
 |  |
