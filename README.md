@@ -153,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/aarushpatil/Leetcode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/aarushpatil/Leetcode/tree/master/0338-counting-bits) |
 | [0473-matchsticks-to-square](https://github.com/aarushpatil/Leetcode/tree/master/0473-matchsticks-to-square) |
+| [1236-n-th-tribonacci-number](https://github.com/aarushpatil/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -193,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/aarushpatil/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/aarushpatil/Leetcode/tree/master/0070-climbing-stairs) |
 | [0797-rabbits-in-forest](https://github.com/aarushpatil/Leetcode/tree/master/0797-rabbits-in-forest) |
+| [1236-n-th-tribonacci-number](https://github.com/aarushpatil/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [2645-pass-the-pillow](https://github.com/aarushpatil/Leetcode/tree/master/2645-pass-the-pillow) |
 ## Combinatorics
 |  |
@@ -333,6 +335,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0070-climbing-stairs](https://github.com/aarushpatil/Leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/aarushpatil/Leetcode/tree/master/0139-word-break) |
+| [1236-n-th-tribonacci-number](https://github.com/aarushpatil/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 ## Trie
 |  |
 | ------- |
