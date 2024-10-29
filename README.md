@@ -169,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/aarushpatil/Leetcode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/aarushpatil/Leetcode/tree/master/0695-max-area-of-island) |
 | [0871-keys-and-rooms](https://github.com/aarushpatil/Leetcode/tree/master/0871-keys-and-rooms) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Simulation
 |  |
@@ -216,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0776-n-ary-tree-postorder-traversal](https://github.com/aarushpatil/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0871-keys-and-rooms](https://github.com/aarushpatil/Leetcode/tree/master/0871-keys-and-rooms) |
 | [0988-flip-equivalent-binary-trees](https://github.com/aarushpatil/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 ## Union Find
 |  |
@@ -250,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/aarushpatil/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/aarushpatil/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0988-flip-equivalent-binary-trees](https://github.com/aarushpatil/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Binary Tree
@@ -257,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/aarushpatil/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/aarushpatil/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Bit Manipulation
