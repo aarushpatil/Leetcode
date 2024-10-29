@@ -19,7 +19,7 @@ class Solution {
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
         qLevel.add(1);
-        HashMap<Integer, Long> sizes = new HashMap<>();
+        HashMap<Integer, Integer> sizes = new HashMap<>();
 
         while(!q.isEmpty())
         {
@@ -28,7 +28,7 @@ class Solution {
             if(curr == null) continue;
 
             // sizes[level] += curr.val;
-            sizes.put(level, sizes.getOrDefault(level, (long)0) + curr.val);
+            sizes.put(level, sizes.getOrDefault(level, 0) + curr.val);
 
             q.add(curr.left);
             q.add(curr.right);
@@ -36,12 +36,12 @@ class Solution {
             qLevel.add(level + 1);
         }
 
-        long maxSize = Integer.MIN_VALUE;
+        int maxSize = Integer.MIN_VALUE;
         int maxInd = 0;
-        for(Map.Entry<Integer, Long> e : sizes.entrySet())
+        for(Map.Entry<Integer, Integer> e : sizes.entrySet())
         {
             int i = e.getKey();
-            long v = e.getValue();
+            int v = e.getValue();
             if(v > maxSize)
             {
                 maxInd = i;
