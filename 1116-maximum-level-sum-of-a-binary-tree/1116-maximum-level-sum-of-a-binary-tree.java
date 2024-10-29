@@ -15,39 +15,53 @@
  */
 class Solution {
     public int maxLevelSum(TreeNode root) {
-        Queue<Integer> qLevel = new LinkedList<>();
         Queue<TreeNode> q = new LinkedList<>();
-        q.add(root);
-        qLevel.add(1);
-        HashMap<Integer, Integer> sizes = new HashMap<>();
-
-        while(!q.isEmpty())
-        {
-            TreeNode curr = q.poll();
-            int level = qLevel.poll();
-            if(curr == null) continue;
-
-            // sizes[level] += curr.val;
-            sizes.put(level, sizes.getOrDefault(level, 0) + curr.val);
-
-            q.add(curr.left);
-            q.add(curr.right);
-            qLevel.add(level + 1);
-            qLevel.add(level + 1);
-        }
 
         int maxSize = Integer.MIN_VALUE;
         int maxInd = 0;
-        for(Map.Entry<Integer, Integer> e : sizes.entrySet())
+
+        q.add(root);
+
+        int level = 1;
+        while(!q.isEmpty())
         {
-            int i = e.getKey();
-            int v = e.getValue();
-            if(v > maxSize)
+            int size = q.size();
+            int sum = 0;
+            for(int i = 0; i < size; i++)
             {
-                maxInd = i;
-                maxSize = v;
+                TreeNode curr = q.poll();
+                sum += curr.val;
+
+                if(curr.left != null)
+                {
+                    q.add(curr.left);
+                }
+                if(curr.right != null)
+                {
+                    q.add(curr.right);
+                }
             }
+
+            if(sum > maxSize)
+            {
+                maxSize = sum;
+                maxInd = level;
+            }
+
+            level++;
         }
+
+        
+        // for(Map.Entry<Integer, Integer> e : sizes.entrySet())
+        // {
+        //     int i = e.getKey();
+        //     int v = e.getValue();
+        //     if(v > maxSize)
+        //     {
+        //         maxInd = i;
+        //         maxSize = v;
+        //     }
+        // }
 
         // System.out.println(sizes.toString());
         return maxInd;
