@@ -49,7 +49,7 @@ class Solution {
             }
         }
 
-        System.out.println(sizes.toString());
+        // System.out.println(sizes.toString());
         return maxInd;
     }
 }
