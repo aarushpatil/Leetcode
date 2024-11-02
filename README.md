@@ -299,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0468-validate-ip-address](https://github.com/aarushpatil/Leetcode/tree/master/0468-validate-ip-address) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/aarushpatil/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/aarushpatil/Leetcode/tree/master/2337-remove-digit-from-number-to-maximize-result) |
+| [2580-circular-sentence](https://github.com/aarushpatil/Leetcode/tree/master/2580-circular-sentence) |
 | [2727-number-of-senior-citizens](https://github.com/aarushpatil/Leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Topological Sort
 |  |
