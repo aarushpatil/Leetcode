@@ -110,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0051-n-queens](https://github.com/aarushpatil/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/aarushpatil/Leetcode/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/aarushpatil/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0075-sort-colors](https://github.com/aarushpatil/Leetcode/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/aarushpatil/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/aarushpatil/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/aarushpatil/Leetcode/tree/master/0118-pascals-triangle) |
@@ -330,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/aarushpatil/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aarushpatil/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0179-largest-number](https://github.com/aarushpatil/Leetcode/tree/master/0179-largest-number) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/aarushpatil/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -339,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/aarushpatil/Leetcode/tree/master/0011-container-with-most-water) |
+| [0075-sort-colors](https://github.com/aarushpatil/Leetcode/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/aarushpatil/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/aarushpatil/Leetcode/tree/master/0088-merge-sorted-array) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/aarushpatil/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
