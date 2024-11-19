@@ -137,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/aarushpatil/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/aarushpatil/Leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2339-k-divisible-elements-subarrays](https://github.com/aarushpatil/Leetcode/tree/master/2339-k-divisible-elements-subarrays) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/aarushpatil/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/aarushpatil/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2727-number-of-senior-citizens](https://github.com/aarushpatil/Leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Dynamic Programming
@@ -251,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/aarushpatil/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/aarushpatil/Leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2339-k-divisible-elements-subarrays](https://github.com/aarushpatil/Leetcode/tree/master/2339-k-divisible-elements-subarrays) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/aarushpatil/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/aarushpatil/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Tree
 |  |
@@ -385,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/aarushpatil/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/aarushpatil/Leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/aarushpatil/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Prefix Sum
 |  |
 | ------- |
