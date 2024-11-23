@@ -14,9 +14,9 @@ class Solution {
                     }
                 }
             }
-            System.out.println("\n\n");
+            // System.out.println("\n\n");
         }
-        System.out.println(Arrays.toString(arr));
+        // System.out.println(Arrays.toString(arr));
         return arr[nums.length - 1];
     }
 }
