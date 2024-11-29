@@ -141,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2339-k-divisible-elements-subarrays](https://github.com/aarushpatil/Leetcode/tree/master/2339-k-divisible-elements-subarrays) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/aarushpatil/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/aarushpatil/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/aarushpatil/Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2727-number-of-senior-citizens](https://github.com/aarushpatil/Leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Dynamic Programming
 |  |
@@ -178,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/aarushpatil/Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Simulation
 |  |
 | ------- |
@@ -244,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/aarushpatil/Leetcode/tree/master/0695-max-area-of-island) |
 | [0825-max-increase-to-keep-city-skyline](https://github.com/aarushpatil/Leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
 | [1972-rotating-the-box](https://github.com/aarushpatil/Leetcode/tree/master/1972-rotating-the-box) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/aarushpatil/Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Hash Table
 |  |
 | ------- |
@@ -295,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/aarushpatil/Leetcode/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/aarushpatil/Leetcode/tree/master/0871-keys-and-rooms) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/aarushpatil/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/aarushpatil/Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## String
 |  |
 | ------- |
@@ -415,4 +419,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1002-maximum-width-ramp](https://github.com/aarushpatil/Leetcode/tree/master/1002-maximum-width-ramp) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/aarushpatil/Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+## Shortest Path
+|  |
+| ------- |
+| [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/aarushpatil/Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 <!---LeetCode Topics End-->
