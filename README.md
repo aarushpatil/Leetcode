@@ -197,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/aarushpatil/Leetcode/tree/master/0146-lru-cache) |
 | [0232-implement-queue-using-stacks](https://github.com/aarushpatil/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 ## Queue
 |  |
@@ -256,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/aarushpatil/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/aarushpatil/Leetcode/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/aarushpatil/Leetcode/tree/master/0139-word-break) |
+| [0146-lru-cache](https://github.com/aarushpatil/Leetcode/tree/master/0146-lru-cache) |
 | [0797-rabbits-in-forest](https://github.com/aarushpatil/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/aarushpatil/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -340,6 +342,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/aarushpatil/Leetcode/tree/master/0002-add-two-numbers) |
+| [0146-lru-cache](https://github.com/aarushpatil/Leetcode/tree/master/0146-lru-cache) |
 | [0237-delete-node-in-a-linked-list](https://github.com/aarushpatil/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 ## Sorting
 |  |
@@ -431,4 +434,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/aarushpatil/Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/aarushpatil/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
