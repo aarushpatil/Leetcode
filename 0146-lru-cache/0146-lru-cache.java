@@ -16,7 +16,6 @@ class LRUCache {
     }
     
     public int get(int key) {
-        System.out.println("get: " + key);
         
         if(!map.containsKey(key))
         {
@@ -32,10 +31,11 @@ class LRUCache {
     }
     
     public void put(int key, int value) {
-        System.out.println("put: " + key + " " + value);
         if(map.containsKey(key))
         {
-            map.get(key).data = value;
+            Node rem = removeNodeFromList(map.get(key));
+            addNodeFrontList(rem);
+            rem.data = value;
             return;
         }
         if(listSize == cap)
