@@ -12,7 +12,7 @@ class Solution {
             {
                 if(grid[i][k] == '1' && !visited[i][k])
                 {
-                    System.out.println("entered on " + i + " " + k);
+                    // System.out.println("entered on " + i + " " + k);
                     ans++;
                     bfs(new int[]{i, k});
                 }
