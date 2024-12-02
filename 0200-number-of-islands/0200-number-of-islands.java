@@ -1,86 +1,55 @@
 class Solution {
-
-    int[] size;
-    int[] links;
-
-    int rows;
-    int cols;
+    char[][] mat;
+    boolean[][] visited;
     public int numIslands(char[][] grid) {
-        rows = grid.length;
-        cols = grid[0].length;
-
-        size = new int[rows * cols];
-        links = new int[rows * cols];
+        mat = grid;
+        visited = new boolean[grid.length][grid[0].length];
         
-
-        for(int i = 0; i < rows * cols; i++)
+        int ans = 0;
+        for(int i = 0; i < grid.length; i++)
         {
-            links[i] = i;
-        }
-
-        //unionize everything that is down and right iterating over grid left to right
-        for(int i = 0; i < rows; i++)
-        {
-            for(int k = 0; k < cols; k++)
+            for(int k = 0; k < grid[i].length; k++)
             {
-                if(grid[i][k] == '1')
+                if(grid[i][k] == '1' && !visited[i][k])
                 {
-                    if(k+1 < cols && grid[i][k+1] == '1')
-                    {
-                        union(cols * i + k, cols * i + k + 1);
-                    }
-
-                    if(i+1 < rows && grid[i+1][k] == '1')
-                    {
-                        union((i + 1) * cols + k, i * cols + k);
-                    }
-                }
-                else
-                {
-                    links[i * cols + k] = -1;
+                    System.out.println("entered on " + i + " " + k);
+                    ans++;
+                    bfs(new int[]{i, k});
                 }
             }
         }
 
-        System.out.println(Arrays.toString(links));
-        int count = 0;
-        for(int i = 0; i < rows * cols; i++)
+        return ans;
+    }
+
+    void bfs(int[] start)
+    {
+        int row = start[0];
+        int col = start[1];
+
+        Queue<int[]> q = new LinkedList<>();
+        q.add(start);
+
+        int[] neighbors = {1,0, 0,1, -1,0, 0,-1};
+
+        while(!q.isEmpty())
         {
-            if(links[i] == i)
+            int[] curr = q.poll();
+            int x = curr[0];
+            int y = curr[1];
+            
+            //check in bounds, and check it is a 1
+            boolean inBounds = x >= 0 && y >= 0 && x < mat.length && y < mat[x].length;
+            if(!inBounds || mat[x][y] != '1' || visited[x][y])
             {
-                count++;
+                continue;
             }
-        }
-        return count;
-    }
 
-    int find(int a)
-    {
-        // while(links[a] != a)
-        // {
-        //     a = links[a];
-        // }
-        if(a == links[a])
-        {
-            return a;
-        }
-        a = find(links[a]);
-        return a;
-    }
-
-    void union(int a, int b)
-    {
-        a = find(a);
-        b = find(b);
-        if(size[a] > size[b])
-        {
-            links[b] = a;
-            size[a] += size[b];
-        }
-        else
-        {
-            links[a] = b;
-            size[b] += size[a];
+            visited[x][y] = true;
+            for(int i = 0; i < neighbors.length; i+=2)
+            {
+                q.add(new int[]{neighbors[i] + x, neighbors[i+1] + y});
+            }
         }
     }
 }
