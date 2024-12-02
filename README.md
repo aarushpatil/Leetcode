@@ -111,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0051-n-queens](https://github.com/aarushpatil/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/aarushpatil/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/aarushpatil/Leetcode/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/aarushpatil/Leetcode/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/aarushpatil/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/aarushpatil/Leetcode/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/aarushpatil/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -348,6 +349,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0018-4sum](https://github.com/aarushpatil/Leetcode/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/aarushpatil/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/aarushpatil/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aarushpatil/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0179-largest-number](https://github.com/aarushpatil/Leetcode/tree/master/0179-largest-number) |
