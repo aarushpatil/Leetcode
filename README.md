@@ -139,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/aarushpatil/Leetcode/tree/master/1803-average-waiting-time) |
 | [1972-rotating-the-box](https://github.com/aarushpatil/Leetcode/tree/master/1972-rotating-the-box) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/aarushpatil/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2232-adding-spaces-to-a-string](https://github.com/aarushpatil/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/aarushpatil/Leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2339-k-divisible-elements-subarrays](https://github.com/aarushpatil/Leetcode/tree/master/2339-k-divisible-elements-subarrays) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/aarushpatil/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -187,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1803-average-waiting-time](https://github.com/aarushpatil/Leetcode/tree/master/1803-average-waiting-time) |
+| [2232-adding-spaces-to-a-string](https://github.com/aarushpatil/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2645-pass-the-pillow](https://github.com/aarushpatil/Leetcode/tree/master/2645-pass-the-pillow) |
 ## Stack
 |  |
@@ -314,6 +316,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0394-decode-string](https://github.com/aarushpatil/Leetcode/tree/master/0394-decode-string) |
 | [0468-validate-ip-address](https://github.com/aarushpatil/Leetcode/tree/master/0468-validate-ip-address) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/aarushpatil/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2232-adding-spaces-to-a-string](https://github.com/aarushpatil/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/aarushpatil/Leetcode/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [2580-circular-sentence](https://github.com/aarushpatil/Leetcode/tree/master/2580-circular-sentence) |
 | [2727-number-of-senior-citizens](https://github.com/aarushpatil/Leetcode/tree/master/2727-number-of-senior-citizens) |
@@ -366,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/aarushpatil/Leetcode/tree/master/0088-merge-sorted-array) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/aarushpatil/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1972-rotating-the-box](https://github.com/aarushpatil/Leetcode/tree/master/1972-rotating-the-box) |
+| [2232-adding-spaces-to-a-string](https://github.com/aarushpatil/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/aarushpatil/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Binary Search
 |  |
