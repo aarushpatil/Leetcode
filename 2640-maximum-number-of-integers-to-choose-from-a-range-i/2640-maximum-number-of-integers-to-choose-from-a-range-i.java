@@ -34,7 +34,6 @@ class Solution {
 
     int getMinN(int maxSum)
     {
-        double sol = (-1 + Math.sqrt(1 + 8 * maxSum)) / 2;
-        return (int) sol;
+        return (int) ((-1 + Math.sqrt(1 + 8L * maxSum)) / 2);
     }
 }
