@@ -183,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-keys-and-rooms](https://github.com/aarushpatil/Leetcode/tree/master/0871-keys-and-rooms) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/aarushpatil/Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Simulation
@@ -238,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Union Find
 |  |
 | ------- |
@@ -281,6 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -292,6 +295,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/aarushpatil/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/aarushpatil/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Bit Manipulation
 |  |
