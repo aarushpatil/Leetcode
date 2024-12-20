@@ -34,7 +34,6 @@ class Solution {
                 }
                 q.add(curr.left);
                 q.add(curr.right);
-                System.out.println(curr.val);
                 arr[i] = curr;
             }
             for(int i = 0; oddLevel && i < size / 2; i++)
