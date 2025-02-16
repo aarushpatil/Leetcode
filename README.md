@@ -110,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0018-4sum](https://github.com/aarushpatil/Leetcode/tree/master/0018-4sum) |
 | [0051-n-queens](https://github.com/aarushpatil/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/aarushpatil/Leetcode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/aarushpatil/Leetcode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/aarushpatil/Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/aarushpatil/Leetcode/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/aarushpatil/Leetcode/tree/master/0064-minimum-path-sum) |
@@ -190,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/aarushpatil/Leetcode/tree/master/0054-spiral-matrix) |
 | [1803-average-waiting-time](https://github.com/aarushpatil/Leetcode/tree/master/1803-average-waiting-time) |
 | [2232-adding-spaces-to-a-string](https://github.com/aarushpatil/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2645-pass-the-pillow](https://github.com/aarushpatil/Leetcode/tree/master/2645-pass-the-pillow) |
@@ -252,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/aarushpatil/Leetcode/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/aarushpatil/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/aarushpatil/Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/aarushpatil/Leetcode/tree/master/0200-number-of-islands) |
