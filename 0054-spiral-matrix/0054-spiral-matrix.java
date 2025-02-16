@@ -1,81 +1,42 @@
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
+        int rows = matrix.length;
+        int cols = matrix[0].length;
 
-        
+        int[][] direction = {{0, 1},{1, 0},{0, -1},{-1, 0}};
+        HashSet<String> visited = new HashSet();
 
+        int dirInd = 0; //start with right
+        int curRow = 0;
+        int curCol = 0;
 
-        List<Integer> list = new ArrayList<>();
-        int four = 1;
-        //1:right
-        //2:down
-        //3:left
-        //4:up
+        List<Integer> output = new LinkedList();
 
-        int xi = 0;
-        int yi = 0;
-
-        int right = 0;
-        int bottom = 0;
-        int left = 0;
-        int top = 1;
-
-        if(matrix[0].length == 1)
+        visited.add(curRow + " " + curCol);
+        output.add(matrix[curRow][curCol]);
+        while(visited.size() < rows * cols)
         {
-            four++;
+            int newRow = curRow + direction[dirInd][0];
+            int newCol = curCol + direction[dirInd][1];
+            boolean inBounds = (newRow >= 0 && newRow < rows) && (newCol >= 0 && newCol < cols);
+            while(inBounds && !visited.contains(newRow + " " + newCol)) //not oob and not already visited
+            {
+                //keep moving in dir and adding to visited
+                curRow = newRow;
+                curCol = newCol;
+
+                visited.add(curRow + " " + curCol);
+                // System.out.println(curRow + " " + curCol + "|| " + visited.size());
+                output.add(matrix[curRow][curCol]);
+
+
+                newRow = curRow + direction[dirInd][0];
+                newCol = curCol + direction[dirInd][1];
+                inBounds = (newRow >= 0 && newRow < rows) && (newCol >= 0 && newCol < cols);
+            }
+            dirInd = (dirInd + 1) % direction.length;
         }
 
-
-        while(list.size() != matrix.length * matrix[0].length)
-        {
-            list.add(matrix[xi][yi]);
-
-            if(four % 4 == 1)
-            {
-                //right
-                yi++;
-                //block hit
-                if(yi == matrix[0].length-1-right)
-                {
-                    four++;
-                    right++;
-                }
-            }
-
-            else if(four % 4 == 2)
-            {
-                //down
-                xi++;
-                //block hit
-                if(xi == matrix.length-1-bottom)
-                {
-                    four++;
-                    bottom++;
-                }
-            }
-
-            else if(four % 4 == 3)
-            {
-                //left
-                yi--;
-                if(yi == left)
-                {
-                    four++;
-                    left++;
-                }
-            }
-            else
-            {
-                //up
-                xi--;
-
-                if(xi == top)
-                {
-                    four++;
-                    top++;
-                }
-            }
-        }
-
-        return list;
+        return output;
     }
 }
