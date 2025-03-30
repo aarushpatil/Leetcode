@@ -15,9 +15,13 @@
  */
 
 class Solution {
-    int[] inOrder;
+    HashMap<Integer, Integer> map;
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        inOrder = inorder;
+        map = new HashMap();
+        for(int i = 0; i < inorder.length; i++)
+        {
+            map.put(inorder[i], i);
+        }
 
         LinkedList<TreeNode> st = new LinkedList();
         TreeNode rt = new TreeNode(preorder[0]);
@@ -57,12 +61,6 @@ class Solution {
     //a is left of b
     boolean isLeft(int a, int b)
     {
-        for(int i = 0; i < inOrder.length; i++)
-        {
-            if(inOrder[i] == a) return true;
-            if(inOrder[i] == b) return false;
-        }
-
-        return false;
+        return map.get(a) < map.get(b);
     }
 }
